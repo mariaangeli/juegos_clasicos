@@ -3,26 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¡Revive los clásicos!</title>
-    <link rel="stylesheet" href="style.css">
+    <Juegos>Juegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4768af;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            background-image: url(img/fondo.jpg);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .games-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .game-card {
+            background-color: #f7f7f7;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+        .game-card h2 {
+            color: #444;
+        }
+        .game-card img {
+            width: 100%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .game-card p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>¡Revive los clásicos!</h1>
-    </header>
-    <main>
-        <section class="juegos">
-            <div class="juego">
-                <img src="juego1.png" alt="Juego 1">
-                <h2>Juego 1</h2>
-                <p>Descripción breve del juego 1.</p>
-                <a href="#">Jugar ahora</a>
+    <div class="container">
+        <h1>Bienvenidos a nuestra colección de juegos</h1>
+        <div class="games-list">
+            <div class="game-card">
+                <img src="img/ahorcado.png" alt="Juego 1">
+                <h2>Ahorcado</h2>
+                
             </div>
-            </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 - Ejemplo de portada de juegos clásicos</p>
-    </footer>
+            <div class="game-card">
+                <a href="juego_tic-tac-toe.html" class="game-link"></a>
+                <img src="img/tictactoe.png" alt="Juego 2">
+                <h2>Tictactoe</h2>
+                
+            </div>
+            <div class="game-card">
+                <img src="img/tanque.png" alt="Juego 3">
+                <h2>Tanque</h2>
+                
+            </div>
+            <div class="game-card">
+                <img src="img/rompecabezas.jpg" alt="Juego 4">
+                <h2>Rompecabezas</h2>
+
+            </div>
+            <div class="game-card">
+                <img src="img/minas.png" alt="Juego 5">
+                <h2>Minas</h2>
+                
+            </div>
+            <div class="game-card">
+                <img src="img/memoria.png" alt="Juego 6">
+                <h2>Memoria</h2>
+               
+            </div>
+            <div class="game-card">
+                <img src="img/invader.png" alt="Juego 7">
+                <h2>Invader</h2>
+               
+            </div>
+
+            <!-- Puedes añadir más juegos según necesites -->
+        </div>
+    </div>
 </body>
 </html>
-
